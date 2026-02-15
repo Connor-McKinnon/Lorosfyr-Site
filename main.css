@@ -1,0 +1,31 @@
+/*
+My Styling Order
+1.  display type (includes info about CSS Grid and Flexbox for children)
+2.  positioning (includes grid-area)
+3.  sizing
+4.  margin/padding
+5.  border
+6.  colors/background
+7.  font family/size
+8.  text/other content modifiers
+9.  other
+*/
+
+/*CSS Reset*/
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+/*CSS Reset End*/
+
+/*Main Elements*/
+html {
+	height: 100%;
+	background-color: rgb(202, 173, 255);
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*Main Elements End*/
