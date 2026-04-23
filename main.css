@@ -142,7 +142,7 @@ nav > a:hover {
 	grid-template-columns: 1fr min(1036px, 70%) 1fr;
 	grid-template-rows: 100px auto;
 	height: 100%;
-	background-color: rgb(202, 173, 255);
+	background-color: rgb(25, 0, 62);
 }
 
 .leftbg {
