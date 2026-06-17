@@ -107,6 +107,10 @@ li {
 	margin: 0 0 7px;
 }
 
+li + ul {
+	padding: 0px 20px;
+}
+
 a {
     color: rgb(149, 0, 255);
 }
