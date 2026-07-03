@@ -77,10 +77,6 @@ h1 {
 	align-content: center;
 	height: 50px;
 	margin: 0;
-	/*Next 3 lines make text gradient*/
-	background-image: linear-gradient(rgb(100, 0, 255), rgb(35, 0, 95));
-	color: transparent;
-	background-clip: text;
 	
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 2.5rem;
@@ -134,6 +130,21 @@ nav > a {
 nav > a:hover {
 	background-color: rgb(36, 9, 99);
 	color: rgb(204, 176, 255);
+}
+
+h1 a {
+	/*Next 3 lines make text gradient*/
+	background-image: linear-gradient(rgb(100, 0, 255), rgb(35, 0, 95));
+	color: transparent;
+	background-clip: text;
+	
+	text-decoration-line: none;
+}
+
+h1 a:hover {
+	background-image: linear-gradient(rgb(204, 176, 255), rgb(120, 0, 207));
+	color: transparent;
+	background-clip: text;
 }
 /*Smaller Elements End*/
 
@@ -205,6 +216,7 @@ nav > a:hover {
 
 .c-date {
 	color: plum;
+	font-weight: bold;
 }
 
 .box > h3 {
@@ -214,6 +226,15 @@ nav > a:hover {
 
 .box > p {
 	margin: 10px 5px 5px;
+}
+
+.small-box > h3 {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.small-box p {
+	margin: 5px;
 }
 /*Element Classes End*/
 
