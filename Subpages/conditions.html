@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Lorosfyr Conditions</title>
+	<link rel="stylesheet" href="../CSS/main.css">
+	<link rel="stylesheet" href="../CSS/resources.css">
+	<link rel="icon" type="image/x-icon" href="../Images/Favicon-Transparent.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div class="grid">
+	<!--Header (includes title)-->
+	<header>
+		<h1><a href="../index.html">Lorosfyr</a></h1>
+		<div class="header-left"></div>
+		<div class="header-right"></div>
+		
+		<nav>
+			<a href="../Main Pages/recaps.html">Recaps</a>
+			<a href="../Main Pages/calendar.html">Calendar</a>
+			<a href="../Main Pages/rules.html">Rules</a>
+			<a href="../Main Pages/characters.html">Characters</a>
+			<a href="../Main Pages/resources.html" id="half-selected">Resources</a>
+		</nav>
+		
+		<div class="rs-buttons">
+			<a href="magic_items.html">Magic Items</a>
+			<a href="consumables.html">Consumables</a>
+			<a id="selected">Conditions</a>
+			<a href="services.html">Services</a>
+		</div>
+	</header>
+	
+	<!--Side Backgrounds-->
+	<div class="leftbg"></div>
+	<div class="rightbg"></div>
+	
+	<!--Main Content-->
+	<main>
+		<h2>Special Conditions and Powers</h2>
+		<p>This page contains unique powers and conditions!</p>
+		
+		<div class="box-frame">
+			<!--Dark Beast Transformation-->
+			<div class="box">
+				<h3>Dark Beast Transformation</h3>
+				<ul>
+					<li>
+					You can expend two uses of Wild Shape at the same 
+					time to transform into a <strong>dark wolf.</strong>
+					</li>
+					<li>
+						<a href="Images/dark-wolf.png">Dark Wolf Stats</a>
+					</li>
+				</ul>
+			</div>
+			<!--Dark Miasma-->
+			<div class="box">
+				<h3>Dark Miasma</h3>
+				<ul>
+					<li>
+						<strong>Levels.</strong> This condition stacks up to 25 levels. Any
+						levels that would put you over 25 levels have no effect.
+					</li>
+					<li>
+						<strong>Life Absorption.</strong> Whenever you would regain hit points, you instead
+						remove a number of levels equal to the healing amount. Any excess healing
+						restores your hit points as normal.
+					</li>
+					<li>
+						<strong>Death Saving Throws.</strong> While at 0 hp, if you roll a natural 20
+						on a death saving throw, you regain 1 hp normally, although your Dark Miasma
+						level remains the same. If you have 25 levels, you instead stabilize and are
+						cured of 1 level of Dark Miasma; this occurs before you would lose hp.
+					</li>
+					<li>
+						<strong>Penalties.</strong> You suffer penalties based
+						on your Dark Miasma level as described below.
+					</li>
+						<ul>
+							<li>
+								<strong><em>1+:</em></strong> Your speed is reduced by 10 feet.
+							</li>
+							<li>
+								<strong><em>6+:</em></strong> Your blood pendant cannot be activated.
+							</li>
+							<li>
+								<strong><em>11+:</em></strong> You have disadvantage on attack rolls
+								and ability checks.
+							</li>
+							<li>
+								<strong><em>16+:</em></strong> You are blind beyond 10 feet.
+							</li>
+							<li>
+								<strong><em>21+:</em></strong> You cannot cast leveled spells or expend
+								any spell slots.
+							</li>
+							<li>
+								<strong><em>25:</em></strong> At the start of each of your turns,
+								you take 5 necrotic damage which cannot be reduced in any way.
+							</li>
+						</ul>
+				</ul>
+			</div>
+			<!--Darkblood Infection (lesser)-->
+			<div class="box">
+				<h3>Darkblood Infection (lesser)</h3>
+				<ul>
+					<li>
+						<strong>Dark Nature.</strong> You cannot regain hit points through
+						standard means; this includes resting and magical healing. You
+						also cannot gain any temporary hit points. When you consume a source
+						of Darkblood, you regain hit points instead of gaining temporary hit points.
+					</li>
+					<li>
+						<strong>Darkblood Desire.</strong> If you start your turn within 15 feet
+						of a Darkblood fruit, you must succeed on a DC 5 Wisdom saving throw or
+						be compelled to consume it. Each time you succeed, the DC increases
+						by 2 until you consume a darkblood fruit (willingly or not).
+					</li>
+					<li>
+						<strong>Rejuvenation.</strong> You regain 1d6 hit points every 10
+						minutes. When you finish a short rest, your exhaustion level is reduced by 1.
+						When you finish a long rest, you remove all levels of exhaustion.
+					</li>
+					<li>
+						<strong>Curing.</strong> The Darkblood Infection can be cured using a
+						casting of <em>lesser restoration.</em>
+					</li>
+				</ul>
+			</div>
+			<!--Darkblood Infection (greater)-->
+			<div class="box">
+				<h3>Darkblood Infection (greater)</h3>
+				<ul>
+					<li>
+						<strong>Dark Nature.</strong> You cannot regain hit points through
+						standard means; this includes resting and magical healing. You
+						also cannot gain any temporary hit points. When you consume a source
+						of Darkblood, you regain hit points instead of gaining temporary hit points.
+					</li>
+					<li>
+						<strong>Darkblood Reliance.</strong> You have come to rely on Darkblood
+						to maintain your vitality. This trait replaces Darkblood Desire. For every
+						24 hours that pass without consuming some form of Darkblood (fruit, vital
+						fluids), your hit point maximum decreases by 10. Whenever you consume
+						Darkblood, you can reduce the number of maximum number of hit points
+						equal to the amount of hp regained by the Darkblood source (you still regain
+						hit points in this way).
+					</li>
+					<li>
+						<strong>Rejuvenation.</strong> You regain 1d6 hit points every 10
+						minutes. When you finish a short rest, your exhaustion level is reduced by 1.
+						When you finish a long rest, you remove all levels of exhaustion.
+					</li>
+					<li>
+						<strong>Blood Asynchronicity.</strong> Your dark blood becomes unstable while
+						on death's doorstep. When you make a death saving throw, the following may
+						happen:
+					</li>
+						<ul>
+							<li>
+								<strong>17-20:</strong> You are stabilized and can expend a blood
+								pendant charge (no action required), regaining hit points from it
+								as normal.
+							</li>
+							<li>
+								<strong>2-4:</strong> You gain an additional failed death saving
+								throw unless you expend a blood pendant charge (no action required)
+								to negate it. You do not regain hit points by doing this.
+							</li>
+						</ul>
+					<li>
+						<strong>Dark Resistance.</strong> If you would gain levels of Dark Miasma, you
+						instead gain half that amount (rounded down). This does not stack with resistance
+						to necrotic damage.
+					</li>
+					<li>
+						<strong>Curing.</strong> The Darkblood Infection can be cured using a
+						casting of <em>greater restoration.</em>
+					</li>
+				</ul>
+			</div>
+			<!--Drangea's Darkness-->
+			<div class="box">
+				<h3>Drangea's Darkness</h3>
+				<ul>
+					<li>
+						<strong>Resistance to Death.</strong> You gain advantage on death saving
+						throws. Additionally, you gain the effects of <em>death ward</em> whenever
+						you finish a long rest; this effect lasts until you finish a long rest.
+						If the effect ends early (due to being triggered), you must succeed on a
+						DC 15 Constitution saving throw or gain 1 level of exhaustion which
+						lasts until you finish a short or long rest.
+					</li>
+					<li>
+						<strong>Shadow Shroud.</strong> As a bonus action, you become shrouded in
+						shadows for 1 minute. While in this state, you deal an extra 1d6 necrotic
+						damage on weapon attacks which ignores resistance and immmunity to
+						necrotic damage. Additionally, you extend the reach of all melee weapons
+						by 5 feet and ignore the long range penalty on ranged weapons. You must finish
+						a short or long rest before you can use this ability again.
+					</li>
+				</ul>
+			</div>
+			<!--Hark's Blessing of Health-->
+			<div class="box">
+				<h3>Hark's Blessing of Health</h3>
+				<ul>
+					<li><strong>This power is now unavailable.</strong></li>
+					<li>
+						Your Constitution score increases by 2, up to a maximum of 22.
+					</li>
+					<li>
+						Maintaining this blessing is contingent upon maintaining favor
+						with Oghma.
+					</li>
+				</ul>
+			</div>
+			
+			<!--SPACER if odd number (works automatically)-->
+			<div class="box-spacer"></div>
+		</div>
+	</main>
+</div>
+</body>
+</html>
+
