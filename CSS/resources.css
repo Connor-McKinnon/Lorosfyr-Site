@@ -1,0 +1,62 @@
+header {
+	grid-template-areas:
+		"header-left title header-right"
+		"header-left buttons header-right"
+		"header-left rs-buttons header-right";
+}
+
+nav {
+	padding-bottom: 0px;
+}
+
+.grid {
+	grid-template-rows: 135px auto;
+}
+
+.rs-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	grid-area: rs-buttons; /*child of header*/
+	padding: 5px 5px;
+	background-color: rgb(24, 3, 64);
+}
+
+.rs-buttons > a {
+	align-content: center;
+	height: 25px;
+	width: 23%;
+	margin-bottom: 5px;
+	border: 0;
+	background-color: rgb(80, 0, 138);
+	color: rgb(204, 176, 255);
+	text-align: center;
+	text-decoration: none;
+}
+
+.rs-buttons > a:hover {
+	background-color: rgb(36, 9, 99);
+	color: rgb(204, 176, 255);
+}
+
+#half-selected {
+	background-color: rgb(78, 4, 153);
+}
+
+#half-selected:hover {
+	background-color: rgb(36, 9, 99);
+	color: rgb(204, 176, 255);
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		grid-template-areas:
+		"header-left title header-right"
+		"buttons buttons buttons"
+		"rs-buttons rs-buttons rs-buttons";
+	}
+	
+	.rs-buttons {
+		padding: 5px 5px;
+	}
+}
